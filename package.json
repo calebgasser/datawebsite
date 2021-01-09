@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "server": "python ./django_backend/manage.py runserver",
+    "front_end": "cd react_frontend && npm start",
     "build": "npm run build_front_end",
     "build_front_end": "cd react_frontend && npm run build"
   },
