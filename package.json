@@ -1,0 +1,21 @@
+{
+  "name": "datawebsite",
+  "version": "1.0.0",
+  "description": "Personal data website for projects",
+  "main": "index.js",
+  "scripts": {
+    "server": "python ./django_backend/manage.py runserver",
+    "build": "npm run build_front_end",
+    "build_front_end": "cd react_frontend && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calebgasser/datawebsite.git"
+  },
+  "author": "Caleb Gasser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/calebgasser/datawebsite/issues"
+  },
+  "homepage": "https://github.com/calebgasser/datawebsite#readme"
+}
