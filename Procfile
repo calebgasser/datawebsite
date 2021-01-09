@@ -1,2 +1,3 @@
-worker: npm run build
-worker: npm run server
+release: npm run build
+release: pipenv shell
+web: npm run server
