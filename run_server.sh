@@ -1,2 +1,3 @@
 #!/bin/bash
-exec python ./django_backend/manage.py runserver $PORT
+exec printenv
+exec python ./django_backend/manage.py runserver "$PORT"
